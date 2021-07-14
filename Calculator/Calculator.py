@@ -1,14 +1,7 @@
-def addition(a, b):
-    return a + b
-
-def subtract(a, b):
-    return a - b
-
-def multiply(a, b):
-    return a * b
-
-def divide(a, b):
-    return a / b
+from Calculator.Addition import addition
+from Calculator.Subtraction import subtract
+from Calculator.Multiply import multiply
+from Calculator.Division import divide
 
 class Calculator:
     result = 0
