@@ -4,5 +4,5 @@ ADD . .
 
 RUN pip install --upgrade pip
 
-CMD ["python", "-m", "discover", "-s", "tests"]
+CMD ["python", "-m", "discover", "-s", "Tests"]
 
